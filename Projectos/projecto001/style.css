@@ -1,0 +1,84 @@
+@media (min-width : 1px)
+{
+    body 
+    {
+        background-color: rgb(61, 49, 49);
+        color: white;
+    }
+}
+    
+@media (max-width : 800x)
+{
+    body 
+    {
+        background-color: darkgrey;
+        color: black;
+    }
+}
+p
+{
+    text-align: justify;
+    margin-left: 100px;
+}
+header{
+
+    background-image: linear-gradient(45deg,  #073b0fc6,#58ef8f, #073b0fc6);
+    padding: 5px;
+}
+#titulo, header > p
+{
+    color: white;
+    text-align: center;
+}
+nav>a
+{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin: 10px;
+    padding: 5px;
+    margin-bottom: 0%;
+}
+nav>a:hover
+{
+    background-color: #0d4c2477;
+    border-radius: 5px;
+}
+main
+{
+    padding: 5px 0px 0px 5px;
+    margin: 0% 100px 0% 100px;
+    background-color: rgb(255, 255, 255);
+}
+footer
+{
+    background-color: #073b0fc6;
+    text-align: center;
+    color: white;
+}
+p>a{
+    text-decoration: none;
+    font-weight: bold;
+    color:#073b0fc6;
+}
+h2{
+    background-image: linear-gradient(to right ,#a4ebaf9f, rgba(255, 255, 255, 0.482));
+}
+#vd
+{
+    text-align: center;
+    background-color: rgb(3, 42, 3);
+    padding: 0%;
+    margin: 0%;
+}
+#sabermais
+{
+    background-color: rgba(123, 208, 123, 0.8);
+    border-radius: 5px 0px 50px 50px;
+}
+#sabermais>h3
+{
+    background-color: #073b0fc6;
+    color: white;
+    border-radius: 50px 50px 0px 0px;
+}

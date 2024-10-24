@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Bungee+Tint&display=swap');
+*
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body
+{
+    margin: 0;
+    background-image: linear-gradient(45deg, #00054c,#0ca2ee, #1e137e);
+    background-attachment: fixed;
+
+}
+h1
+{
+    text-shadow: 3px 2px 2px #010325;
+    text-align: center;
+    color: white;
+    font-family:"Bungee Tint", sans-serif;
+}
+p
+{
+    text-align: center;
+}
+header
+{
+    margin: 10px;
+}
+nav
+{
+  padding: 20px;
+  text-align: center;
+  background-color: #00054c;
+  border-radius: 30px;
+  border: 2px solid white;
+}
+nav> a 
+{
+    text-align: center;
+    font-weight: bolder;
+    margin-right: 20px;
+    padding: 15px;
+
+    
+
+}
+nav>a:hover
+{
+ color:#0ca2ee;
+ text-decoration: solid;
+}
+nav >a:active
+{
+    color: #05b598;
+}
+a
+{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+footer
+{
+    margin: 0%;
+    background-color: white;
+    text-align: center;
+    padding: 5px;
+    font-weight: 100;
+}

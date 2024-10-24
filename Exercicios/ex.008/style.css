@@ -1,0 +1,46 @@
+*
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body
+{
+    background-image: linear-gradient(to right, #17efef, #09a0e69c, rgb(52, 52, 118));
+    height: 100%;
+}
+#d2
+{
+    background-color: #095AE6;
+}
+div
+{
+    background-color: #56B8E6;
+    display: inline-block;
+    text-align: center;
+    border: 3px solid black;
+    height: 200px;
+    width: 200px;
+}
+h1
+{
+    text-align: center;
+    background-color: #095AE6;
+    color: white;
+    padding: 3px;
+    width: auto;
+}
+div:hover
+{
+    background-color: rgba(5, 7, 75);
+    color: rgb(109, 112, 190);
+    padding: 5px;
+}
+div > p
+{
+    display: none;
+}
+div:hover > p
+{
+display: block;
+background-color: rgb(21, 131, 139);
+color: white;
+}
