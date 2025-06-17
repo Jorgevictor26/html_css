@@ -1,0 +1,56 @@
+body
+{
+    text-align: center;
+}
+
+nav
+{
+    text-align: right;
+    padding: 20px;
+}
+
+nav > a
+{
+    text-decoration: none;
+    background-color: aliceblue;
+    padding: 8px;
+    font-weight: bold;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+
+.same > input[type ="text"]
+{
+    width: 500px;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 16px;
+    border: 1px solid black
+}
+
+.same > input[type ="submit"]
+{
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+    border: 1px solid black;
+    font-size: 14px;
+}
+
+#advanced
+{
+    text-align: left;
+}
+
+
+#adbtn
+{
+    background-color: rgb(21, 186, 198);
+    padding: 10px;
+    color: white;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+
+}
+
